@@ -1,7 +1,11 @@
 # CGAL-Plugin
-woh
+## Fuzzy_rotate_cylinder
+Find points inside a 3d rotate cylinder
+Input:
+- two endpoints of a line segment 
+- radius of the cylinder
 ```C++
-    // Example
+    // A simple example
     Point_d beginPt(58.5445, 90.3174, 149.704);
     Point_d endPt(58.1525, 92.8705, 149.728);
     std::vector<Point_d> vec_pt3;
