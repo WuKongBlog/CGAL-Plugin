@@ -1,9 +1,11 @@
 # CGAL-Plugin
 ## Fuzzy_rotate_cylinder
-Find points inside a 3d rotate cylinder
+Find points that inside a 3d rotate cylinder base on CGAL KD-tree
+
 Input:
 - two endpoints of a line segment 
 - radius of the cylinder
+
 ```C++
     // A simple example
     Point_d beginPt(58.5445, 90.3174, 149.704);
